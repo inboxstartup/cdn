@@ -8,8 +8,11 @@ List Git-LFS
 
 $ git lfs ls-files --all
 
-## Netlify / Cloudflare
+## Deploy / Public
 
-SiteName > Site settings > Build & deploy > Environment
+2023-01-01: Github > Cloudflare Pages
 
-Click the "Edit variables" and set "GIT_LFS_ENABLED" as key and "true" as value.
+### Cloudflare Pages
+
+- SiteName > Site settings > Build & deploy > Environment
+- Click the "Edit variables" and set "GIT_LFS_ENABLED" as key and "true" as value
